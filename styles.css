@@ -28,3 +28,24 @@ div {
     margin-bottom: 10px;
     background-color: #fff;
 }
+/* Estilos para los enlaces del menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
