@@ -3,30 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto HTML</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Adivina la etiqueta HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Todo sobre HTML</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="inicio.html">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <main>
-        <div>
-            <h2 style="text-align: center;">Contenido que veremos de html</h2>
-            <p>¡Bienvenido a este sitio web!</p>
-            <p>En esta pagina hemos trabajo: Luis Jaramillo, Andy Zambrano, William Soledispa. Con el objetivo de que aprendamos sobre html y css. </p>
-            <p>Vamos a enseñar lo que es la estructura y el contenido que debe tener una pagina web. </p>
-        </div>
-    </main>
+    <h1>¡Adivina la etiqueta HTML!</h1>
+    <div id="juego">
+        <p id="pregunta"></p>
+        <input type="text" id="respuesta">
+        <button id="verificar">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-    <footer>
-        <p>Pie de página - © 2024 Mi Sitio Web</p>
-    </footer>
 </html>
