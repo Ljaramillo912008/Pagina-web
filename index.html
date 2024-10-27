@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adivina la etiqueta HTML</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>¡Adivina la etiqueta HTML!</h1>
-    <div id="juego">
-        <p id="pregunta"></p>
-        <input type="text" id="respuesta" placeholder="Escribe aquí tu respuesta...">
-        <button id="verificar">Verificar</button>
-        <p id="resultado"></p>
+    <div class="container">
+        <h1>¡Adivina la etiqueta HTML!</h1>
+        <div id="juego">
+            <p id="pregunta"></p>
+            <input type="text" id="respuesta" placeholder="Escribe aquí tu respuesta..." autofocus>
+            <div class="button-group">
+                <button id="verificar">Verificar</button>
+                <button id="reiniciar" style="display: none;">Reiniciar Juego</button>
+            </div>
+            <p id="resultado"></p>
+            <p id="puntuacion">Puntuación: 0</p>
+            <p id="nivel">Nivel: 1</p>
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
